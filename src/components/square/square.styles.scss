@@ -1,0 +1,15 @@
+.square {
+  padding: .5em;
+  min-width: 7rem;
+  min-height: 7rem;
+  font-size: 3em;
+  background-color: rgba(68, 172, 153, .5);
+  color: crimson;
+  font-weight: bold;
+
+  &:hover {
+    cursor: pointer;
+    opacity: .7;
+    transition: ease-in-out 1s;
+  }
+}
